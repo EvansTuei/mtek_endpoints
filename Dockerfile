@@ -1,6 +1,6 @@
 FROM python:3.8-slim-buster
 
-LABEL KOKO analytics "analytics@kokonetworks.com"
+LABEL Mtek analytics "analytics@mtek.com"
 
 RUN pip install gunicorn
 
