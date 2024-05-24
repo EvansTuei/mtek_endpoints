@@ -39,7 +39,6 @@ def load_data_into():
    if not json_data:
         return jsonify({'error': 'No JSON data provided'}), 400
    for key, value in json_data.items():
-        # Here, you can perform your processing logic
         print(f"Key: {key}, Value: {value}")
         insert_data(conn,json_data)
         return jsonify({'message': 'Data received successfully'}), 200
